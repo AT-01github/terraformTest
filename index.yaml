@@ -1,0 +1,8 @@
+
+name: terraformTest
+version: 1.0.0
+description: "IBM Cloud Terraform Catalog for Hello World module"
+modules:
+  - name: hello-world
+    description: "Creates a local file with a message"
+    location: modules/hello-world
